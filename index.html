@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RIPe · Research Institute for the Public Economy</title>
+<meta name="description" content="Des idées mûres pour les politiques publiques. Ideas ripe for policy.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ripepolicy.org/">
+<meta property="og:title" content="RIPe · Research Institute for the Public Economy">
+<meta property="og:description" content="Des idées mûres pour les politiques publiques. Ideas ripe for policy.">
+<meta property="og:image" content="https://ripepolicy.org/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#F7F3EA">
+<link rel="icon" type="image/svg+xml" href="assets/mango.svg">
+<link rel="preload" href="assets/Manrope-wght.ttf" as="font" type="font/ttf" crossorigin>
+<style>
+  @font-face { font-family: "Manrope"; src: url("assets/Manrope-wght.ttf") format("truetype"); font-weight: 200 800; font-display: swap; }
+  :root { --terra: #A64B36; --terra-d: #7E3626; --ivory: #F7F3EA; --sand: #EFE7D7; --ink: #2B2522; --mute: #6B605A; --rule: #D9CDB8; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { background: var(--ivory); }
+  body {
+    min-height: 100vh; min-height: 100svh; display: flex; flex-direction: column;
+    font-family: "Manrope", system-ui, sans-serif; color: var(--ink); background: var(--ivory);
+    -webkit-font-smoothing: antialiased; padding: 0 24px;
+  }
+  main { flex: 1; display: flex; flex-direction: column; justify-content: center; max-width: 720px; width: 100%; margin: 0 auto; padding: 64px 0 40px; }
+  .mark { display: flex; align-items: center; gap: 18px; }
+  .mark img { width: 92px; height: 92px; margin: -14px -10px -14px -14px; }
+  .word { font-weight: 600; font-size: 56px; letter-spacing: -1px; line-height: 1; color: var(--terra); }
+  .full { margin-top: 22px; font-size: 19px; font-weight: 500; color: var(--terra); letter-spacing: -0.1px; }
+  .full b { font-weight: 700; }
+  .rule { height: 2px; background: var(--terra); width: 56px; margin: 40px 0 34px; }
+  h1 { font-size: clamp(30px, 6vw, 46px); line-height: 1.08; font-weight: 750; letter-spacing: -1px; max-width: 19ch; text-wrap: balance; }
+  .lede { margin-top: 18px; font-size: 19px; line-height: 1.5; font-weight: 500; max-width: 34em; }
+  .en { margin-top: 14px; font-size: 20px; line-height: 1.4; color: var(--mute); font-weight: 500; }
+  .soon { display: inline-flex; align-items: center; gap: 10px; margin-top: 34px; font-size: 13px; font-weight: 800; letter-spacing: 1.4px; text-transform: uppercase; color: var(--terra); }
+  .soon::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--terra); }
+  .contact { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 12px 28px; font-size: 17px; font-weight: 600; }
+  .contact a { color: var(--ink); text-decoration: none; border-bottom: 1.5px solid var(--rule); padding-bottom: 2px; }
+  .contact a:hover, .contact a:focus-visible { color: var(--terra); border-color: var(--terra); }
+  .contact span { color: var(--mute); font-weight: 500; }
+  footer { max-width: 720px; width: 100%; margin: 0 auto; padding: 22px 0 28px; border-top: 1px solid var(--rule); font-size: 13px; color: var(--mute); display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  @media (max-width: 520px) {
+    main { padding-top: 48px; }
+    .mark img { width: 72px; height: 72px; }
+    .word { font-size: 44px; }
+    .full { font-size: 16px; }
+    .lede { font-size: 17px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark">
+    <img src="assets/mango.svg" alt="">
+    <div class="word" aria-label="RIPe">RIPe</div>
+  </div>
+  <p class="full">Research Institute for the <b>Public Economy</b></p>
+
+  <div class="rule" aria-hidden="true"></div>
+
+  <h1>Des idées mûres pour les politiques publiques.</h1>
+  <p class="en" lang="en">Ideas ripe for policy.</p>
+
+  <p class="soon">Site en préparation</p>
+
+  <div class="contact">
+    <a href="mailto:contact@ripepolicy.org">contact@ripepolicy.org</a>
+    <span>@ripepolicy</span>
+  </div>
+</main>
+<footer>
+  <span>© RIPe · Research Institute for the Public Economy</span>
+  <span>Sénégal</span>
+</footer>
+</body>
+</html>
